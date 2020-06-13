@@ -88,3 +88,57 @@ header .nav-item a:hover:after{
 .load-more span{
     display: none;
 }
+.signup{
+    background-color: #f0f0f0;
+    padding: 70px 0;
+}
+.signup h3{
+    color: #333;
+}
+.signup form{
+    margin-top: 70px;
+}
+.signup .form-input{
+    position: relative;
+}
+.signup .form-control{
+    border: 0;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+}
+.form-input .btn{
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+    top: -5px;
+}
+footer{
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    color: #000;
+}
+footer-left a{
+    color: #000;
+    margin-right: 20px;
+}
+footer-right a{
+    color: #000;
+    margin-right: 20px;
+}
+
+
+
+@media only screen and (max-width : 768px){
+    header .nav-item{
+        margin-left: 0;
+    }
+}
+
+
+
+@media only screen and (max-width : 768px){
+    .grid-posts{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
